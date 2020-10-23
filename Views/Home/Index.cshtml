@@ -1,4 +1,4 @@
-﻿<!-- [ Layout container ] Start -->
+﻿            <!-- [ Layout container ] Start -->
 <div class="layout-container">
     <!-- [ Layout navbar ( Header ) ] Start -->
     <nav class="layout-navbar navbar navbar-expand-lg align-items-lg-center bg-dark container-p-x" id="layout-navbar">
@@ -60,7 +60,7 @@
                             </a>
 
                             <a href="javascript:" class="list-group-item list-group-item-action media d-flex align-items-center">
-                                <div class="ui-icon ui-icon-sm feather icon-user-plus bg-info border-0 text-white"></div>
+                                <div class="ui-icon ui-icon-sm feather icon-user-plus bg-primary border-0 text-white"></div>
                                 <div class="media-body line-height-condenced ml-3">
                                     <div class="text-dark">
                                         You have
@@ -189,310 +189,787 @@
 
         <!-- [ content ] Start -->
         <div class="container-fluid flex-grow-1 container-p-y">
-
-            <h4 class="font-weight-bold py-3 mb-0">Project</h4>
+            <h4 class="font-weight-bold py-3 mb-0">Project Dashboard</h4>
             <div class="text-muted small mt-0 mb-4 d-block breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#"><i class="feather icon-home"></i></a></li>
-                    <li class="breadcrumb-item"><a href="#">Library</a></li>
-                    <li class="breadcrumb-item active">Data</li>
+                    <li class="breadcrumb-item"><a href="#!">Project</a></li>
+                    <li class="breadcrumb-item active"><a href="#!">Dashboard</a></li>
                 </ol>
             </div>
             <div class="row">
-                <!-- first card start -->
-                <!-- Staustic card 11 Start -->
+                <!-- statustic with progressbar  start -->
                 <div class="col-xl-3 col-md-6">
-                    <div class="card mb-4">
+                    <div class="card statustic-progress-card">
                         <div class="card-body">
-                            <h5>Open Ticket</h5>
+                            <h5 class="mb-3">Awaiting payment</h5>
                             <div class="row align-items-center">
                                 <div class="col">
-                                    <label class="badge badge-pill badge-primary">35% <i class="m-l-10 feather icon-arrow-up"></i></label>
+                                    <label class="badge badge-success">35% <i class="m-l-10 feather icon-arrow-up"></i></label>
                                 </div>
                                 <div class="col text-right">
-                                    <h5 class="mb-0">35</h5>
+                                    <h5 class="">9 / 14</h5>
                                 </div>
                             </div>
-                            <div class="progress mt-1">
-                                <div class="progress-bar bg-primary" style="width:35%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5>Completed Task</h5>
-                            <div class="row align-items-center">
-                                <div class="col">
-                                    <label class="badge badge-pill badge-success">85% <i class="m-l-10 feather icon-arrow-down"></i></label>
-                                </div>
-                                <div class="col text-right">
-                                    <h5 class="mb-0">1 Remain</h5>
-                                </div>
-                            </div>
-                            <div class="progress mt-1">
-                                <div class="progress-bar bg-success" style="width:85%"></div>
+                            <div class="progress m-t-5">
+                                <div class="progress-bar bg-success" style="width:35%"></div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6">
-                    <div class="card mb-4">
+                    <div class="card statustic-progress-card">
                         <div class="card-body">
-                            <h5>Space Remain</h5>
+                            <h5 class="mb-3">Converted leads</h5>
                             <div class="row align-items-center">
                                 <div class="col">
-                                    <label class="badge badge-pill badge-danger">8% <i class="m-l-10 feather icon-arrow-down"></i></label>
+                                    <label class="badge badge-primary">28% <i class="m-l-10 feather icon-arrow-up"></i></label>
                                 </div>
                                 <div class="col text-right">
-                                    <h5 class="mb-0">15 BG</h5>
+                                    <h5 class="">9 / 50</h5>
                                 </div>
                             </div>
-                            <div class="progress mt-1">
-                                <div class="progress-bar bg-danger" style="width:15%"></div>
+                            <div class="progress m-t-5">
+                                <div class="progress-bar bg-primary" style="width:28%"></div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6">
-                    <div class="card mb-4">
+                    <div class="card statustic-progress-card">
                         <div class="card-body">
-                            <h5>New Followers</h5>
+                            <h5 class="mb-3">Projects in progress</h5>
                             <div class="row align-items-center">
                                 <div class="col">
-                                    <label class="badge badge-pill text-white badge-warning">15% <i class="m-l-10 feather icon-arrow-down"></i></label>
+                                    <label class="badge badge-danger">87% <i class="m-l-10 feather icon-arrow-up"></i></label>
                                 </div>
                                 <div class="col text-right">
-                                    <h5 class="mb-0">55+</h5>
+                                    <h5 class="">6 / 6</h5>
                                 </div>
                             </div>
-                            <div class="progress mt-1">
-                                <div class="progress-bar bg-warning" style="width:35%"></div>
+                            <div class="progress m-t-5">
+                                <div class="progress-bar bg-danger" style="width:87%"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Staustic card 11 end -->
-                <!-- Second card start -->
-                <div class="col-xl-6 col-md-12">
-                    <div class="card d-flex w-100 mb-4">
-                        <div class="row no-gutters row-bordered row-border-light h-100">
-                            <div class="d-flex col-sm-6 align-items-center">
-                                <div class="card-body media align-items-center text-dark">
-                                    <i class="lnr lnr-laptop-phone display-4 d-block text-danger"></i>
-                                    <span class="media-body d-block ml-3">
-                                        <span class="text-big mr-1 text-danger">54+</span>
-                                        <br>
-                                        <small class="text-muted">New Project</small>
-                                    </span>
+                <div class="col-xl-3 col-md-6">
+                    <div class="card statustic-progress-card">
+                        <div class="card-body">
+                            <h5 class="mb-3">Tasks not finished</h5>
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <label class="badge badge-warning">32% <i class="m-l-10 feather icon-arrow-up"></i></label>
+                                </div>
+                                <div class="col text-right">
+                                    <h5 class="">51 / 67</h5>
                                 </div>
                             </div>
-                            <div class="d-flex col-sm-6 align-items-center">
-                                <div class="card-body media align-items-center text-dark">
-                                    <i class="lnr lnr-thumbs-up display-4 d-block text-danger"></i>
-                                    <span class="media-body d-block ml-3">
-                                        <span class="text-big"><span class="mr-1 text-danger">152</span>Pages</span>
-                                        <br>
-                                        <small class="text-muted">Complited Task</small>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="d-flex col-sm-6 align-items-center">
-                                <div class="card-body media align-items-center text-dark">
-                                    <i class="lnr lnr-users display-4 d-block text-danger"></i>
-                                    <span class="media-body d-block ml-3">
-                                        <span class="text-big"><span class="mr-1 text-danger">144+</span> Users</span>
-                                        <br>
-                                        <small class="text-muted">New Customer</small>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="d-flex col-sm-6 align-items-center">
-                                <div class="card-body media align-items-center text-dark">
-                                    <i class="lnr lnr-clock display-4 d-block text-danger"></i>
-                                    <span class="media-body d-block ml-3">
-                                        <span class="text-big"><span class="mr-1 text-danger">4</span> Module</span>
-                                        <br>
-                                        <small class="text-muted">Overdue Tasks</small>
-                                    </span>
-                                </div>
+                            <div class="progress m-t-5">
+                                <div class="progress-bar bg-warning" style="width:32%"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-md-12">
-                    <div class="card d-flex w-100 mb-4">
-                        <div class="row no-gutters row-bordered row-border-light h-100">
-                            <div class="d-flex col-sm-6 align-items-center">
-                                <div class="card-body media align-items-center text-dark">
-                                    <i class="lnr lnr-diamond display-4 d-block text-primary"></i>
-                                    <span class="media-body d-block ml-3">
-                                        <span class="text-big mr-1 text-primary">$1584.78</span>
-                                        <br>
-                                        <small class="text-muted">Earned this month</small>
-                                    </span>
+                <!-- statustic with progressbar  end -->
+                <!-- progressbar static data start -->
+                <div class="col-md-8">
+                    <!--div class="card statustic-progress-card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6 col-lg-4 col-sm-6">
+                                    <h5>Invoice overview</h5>
+                                    <hr>
+                                    <div class="row align-items-center">
+                                        <div class="col">
+                                            <h6 class="">0 Draft</h6>
+                                        </div>
+                                        <div class="col text-right">
+                                            <p class="mb-0">0.00%</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 0%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center mt-3">
+                                        <div class="col">
+                                            <h6 class="">9 Not Sent</h6>
+                                        </div>
+                                        <div class="col text-right">
+                                            <p class="mb-0">64.29%</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 64.29%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center mt-3">
+                                        <div class="col">
+                                            <h6 class="text-danger">6 Unpaid</h6>
+                                        </div>
+                                        <div class="col text-right">
+                                            <p class="mb-0">42.86%</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="progress">
+                                                <div class="progress-bar bg-danger" role="progressbar" style="width: 42.86%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center mt-3">
+                                        <div class="col pr-0">
+                                            <h6 class="text-warning">3 Partially Paid</h6>
+                                        </div>
+                                        <div class="col pl-0 text-right">
+                                            <p class="mb-0">21.43%</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="progress">
+                                                <div class="progress-bar bg-warning" role="progressbar" style="width: 21.43%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center mt-3">
+                                        <div class="col pr-0">
+                                            <h6 class="text-warning">0 Overdue</h6>
+                                        </div>
+                                        <div class="col pl-0 text-right">
+                                            <p class="mb-0">0.00%</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 0.00;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center mt-3">
+                                        <div class="col pr-0">
+                                            <h6 class="text-success">5 Paid</h6>
+                                        </div>
+                                        <div class="col pl-0 text-right">
+                                            <p class="mb-0">35.71%</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="progress">
+                                                <div class="progress-bar bg-success" role="progressbar" style="width: 35.71%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-sm-6 mt-md-0 mt-3">
+                                    <h5>Estimate overview</h5>
+                                    <hr>
+                                    <div class="row align-items-center">
+                                        <div class="col">
+                                            <h6 class="">3 Draft</h6>
+                                        </div>
+                                        <div class="col text-right">
+                                            <p class="mb-0">27.27%</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 27.27%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center mt-3">
+                                        <div class="col">
+                                            <h6 class="">2 Not Sent</h6>
+                                        </div>
+                                        <div class="col text-right">
+                                            <p class="mb-0">18.18%</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 18.18%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center mt-3">
+                                        <div class="col">
+                                            <h6 class="text-primary">5 Sent</h6>
+                                        </div>
+                                        <div class="col text-right">
+                                            <p class="mb-0">45.45%</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="progress">
+                                                <div class="progress-bar bg-primary" role="progressbar" style="width: 45.45%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center mt-3">
+                                        <div class="col pr-0">
+                                            <h6 class="text-warning">0 Expired</h6>
+                                        </div>
+                                        <div class="col pl-0 text-right">
+                                            <p class="mb-0">0.00%</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="progress">
+                                                <div class="progress-bar bg-warning" role="progressbar" style="width: 0.00%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center mt-3">
+                                        <div class="col pr-0">
+                                            <h6 class="text-danger">3 Declined</h6>
+                                        </div>
+                                        <div class="col pl-0 text-right">
+                                            <p class="mb-0">27.27%</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 27.27%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center mt-3">
+                                        <div class="col pr-0">
+                                            <h6 class="text-success">0 Accepted</h6>
+                                        </div>
+                                        <div class="col pl-0 text-right">
+                                            <p class="mb-0">0.00%</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="progress">
+                                                <div class="progress-bar bg-success" role="progressbar" style="width: 0.00%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-6 col-lg-4 mt-md-0 mt-3">
+                                    <h5>Proposal overview</h5>
+                                    <hr>
+                                    <div class="row align-items-center">
+                                        <div class="col">
+                                            <h6 class="">1 Draft</h6>
+                                        </div>
+                                        <div class="col text-right">
+                                            <p class="mb-0">25.00%</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 25.00%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center mt-3">
+                                        <div class="col">
+                                            <h6 class="">2 Not Sent</h6>
+                                        </div>
+                                        <div class="col text-right">
+                                            <p class="mb-0">25.00%</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 25.00%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center mt-3">
+                                        <div class="col">
+                                            <h6 class="">1 Sent</h6>
+                                        </div>
+                                        <div class="col text-right">
+                                            <p class="mb-0">25.00%</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="progress">
+                                                <div class="progress-bar bg-primary" role="progressbar" style="width: 25.00%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center mt-3">
+                                        <div class="col pr-0">
+                                            <h6 class="text-primary">0 Revised</h6>
+                                        </div>
+                                        <div class="col pl-0 text-right">
+                                            <p class="mb-0">0.00%</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="progress">
+                                                <div class="progress-bar bg-warning" role="progressbar" style="width: 0.00%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center mt-3">
+                                        <div class="col pr-0">
+                                            <h6 class="text-danger">0 Declined</h6>
+                                        </div>
+                                        <div class="col pl-0 text-right">
+                                            <p class="mb-0">0.00%</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 0.00%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center mt-3">
+                                        <div class="col pr-0">
+                                            <h6 class="text-success">0 Accepted</h6>
+                                        </div>
+                                        <div class="col pl-0 text-right">
+                                            <p class="mb-0">25.00</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="progress">
+                                                <div class="progress-bar bg-success" role="progressbar" style="width: 25.00%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="d-flex col-sm-6 align-items-center">
-                                <div class="card-body media align-items-center text-dark">
-                                    <i class="lnr lnr-clock display-4 d-block text-warning"></i>
-                                    <span class="media-body d-block ml-3">
-                                        <span class="text-big"><span class="mr-1 text-warning">152</span>Working Hours</span>
-                                        <br>
-                                        <small class="text-muted">Spent this month</small>
-                                    </span>
+                            <div class="row mt-3 text-center">
+                                <div class="col-lg-4 col-xs-12 col-md-12">
+                                    <div class="alert alert-danger mb-0" role="alert">
+                                        <h3 class="alert-heading">$10,988.48</h3>
+                                        <span class="">Outstanding Invoices</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="d-flex col-sm-6 align-items-center">
-                                <div class="card-body media align-items-center text-dark">
-                                    <i class="lnr lnr-hourglass display-4 d-block text-danger"></i>
-                                    <span class="media-body d-block ml-3">
-                                        <span class="text-big"><span class="mr-1 text-danger">54</span> Tasks</span>
-                                        <br>
-                                        <small class="text-muted">Completed this month</small>
-                                    </span>
+                                <div class="col-lg-4 col-xs-12 col-md-12 mt-md-0 mt-3">
+                                    <div class="alert alert-danger mb-0" role="alert">
+                                        <h3 class="alert-heading">$0.00</h3>
+                                        <span class="">Past Due Invoices</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="d-flex col-sm-6 align-items-center">
-                                <div class="card-body media align-items-center text-dark">
-                                    <i class="lnr lnr-license display-4 d-block text-success"></i>
-                                    <span class="media-body d-block ml-3">
-                                        <span class="text-big"><span class="mr-1 text-success">6</span> Projects</span>
-                                        <br>
-                                        <small class="text-muted">Done this month</small>
-                                    </span>
+                                <div class="col-lg-4 col-xs-12 col-md-12 mt-md-0 mt-3">
+                                    <div class="alert alert-success mb-0" role="alert">
+                                        <h3 class="alert-heading">$27,115.00</h3>
+                                        <span class="">Paid Invoices</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <!-- Second card end -->
+                    </div-->
 
-                <div class="col-xl-4 col-md-12">
-                    <div class="card mb-4">
-                        <div class="card-header with-elements">
-                            <h6 class="card-header-title mb-0">Tasks List</h6>
-                            <div class="card-header-elements ml-auto">
-                                <button type="button" class="btn btn-default btn-xs md-btn-flat">View more</button>
+                    <div class="card">
+                        <div class="card-body pb-0">
+                            <h4 class="d-flex flex-wrap justify-content-between align-items-center font-weight-bold pt-2 mb-0">
+                                <div class="mb-2">Clients</div>
+                                <div class="mb-2" style="max-width: 200px;">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                </div>
+                            </h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table id="report-table" class="clients-table table table-hover m-0">
+                                    <tbody>
+                                        <tr>
+                                            <td class="align-middle py-3">
+                                                <div class="media align-items-center">
+                                                    <img src="assets/img/avatars/5-small.png" class="d-block ui-w-40 rounded-circle" alt="">
+                                                    <div class="media-body flex-basis-auto pl-3">
+                                                        <div>Nelle Maxwell</div>
+                                                        <div class="text-muted small">@@nmaxwell</div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                Company Inc.
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                nmaxwell@mail.com
+                                                <br> +0 (123) 456 7891
+                                            </td>
+                                            <td class="align-middle py-3">
+                                            </td>
+                                        </tr>
+
+                                        <tr class="bg-light">
+                                            <td class="align-middle py-3">
+                                                <div class="media align-items-center">
+                                                    <img src="assets/img/avatars/9-small.png" class="d-block ui-w-40 rounded-circle" alt="">
+                                                    <div class="media-body flex-basis-auto pl-3">
+                                                        <div>Amanda Warner</div>
+                                                        <div class="text-muted small">@@awarner</div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                Company Inc.
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                awarner@mail.com
+                                                <br> +0 (123) 456 7891
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                <span class="badge badge-success">Active</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="align-middle py-3">
+                                                <div class="media align-items-center">
+                                                    <img src="assets/img/avatars/4-small.png" class="d-block ui-w-40 rounded-circle" alt="">
+                                                    <div class="media-body flex-basis-auto pl-3">
+                                                        <div>Kenneth Frazier</div>
+                                                        <div class="text-muted small">@@kfrazier</div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                Company Inc.
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                kfrazier@mail.com
+                                                <br> +0 (123) 456 7891
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                <span class="badge badge-warning">Pending</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="align-middle py-3">
+                                                <div class="media align-items-center">
+                                                    <img src="assets/img/avatars/6-small.png" class="d-block ui-w-40 rounded-circle" alt="">
+                                                    <div class="media-body flex-basis-auto pl-3">
+                                                        <div>Mae Gibson</div>
+                                                        <div class="text-muted small">@@mgibson</div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                Company Inc.
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                mgibson@mail.com
+                                                <br> +0 (123) 456 7891
+                                            </td>
+                                            <td class="align-middle py-3">
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="align-middle py-3">
+                                                <div class="media align-items-center">
+                                                    <img src="assets/img/avatars/12-small.png" class="d-block ui-w-40 rounded-circle" alt="">
+                                                    <div class="media-body flex-basis-auto pl-3">
+                                                        <div>Arthur Duncan</div>
+                                                        <div class="text-muted small">@@aduncan</div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                Company Inc.
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                aduncan@mail.com
+                                                <br> +0 (123) 456 7891
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                <span class="badge badge-info">In progress</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="align-middle py-3">
+                                                <div class="media align-items-center">
+                                                    <img src="assets/img/avatars/11-small.png" class="d-block ui-w-40 rounded-circle" alt="">
+                                                    <div class="media-body flex-basis-auto pl-3">
+                                                        <div>Belle Ross</div>
+                                                        <div class="text-muted small">@@bross</div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                Company Inc.
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                bross@mail.com
+                                                <br> +0 (123) 456 7891
+                                            </td>
+                                            <td class="align-middle py-3">
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="align-middle py-3">
+                                                <div class="media align-items-center">
+                                                    <img src="assets/img/avatars/3-small.png" class="d-block ui-w-40 rounded-circle" alt="">
+                                                    <div class="media-body flex-basis-auto pl-3">
+                                                        <div>Allie Rodriguez</div>
+                                                        <div class="text-muted small">@@arodriguez</div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                Company Inc.
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                bross@mail.com
+                                                <br> +0 (123) 456 7891
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                <span class="badge badge-success">Active</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="align-middle py-3">
+                                                <div class="media align-items-center">
+                                                    <img src="assets/img/avatars/7-small.png" class="d-block ui-w-40 rounded-circle" alt="">
+                                                    <div class="media-body flex-basis-auto pl-3">
+                                                        <div>Alice Hampton</div>
+                                                        <div class="text-muted small">@@ahampton</div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                Company Inc.
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                ahampton@mail.com
+                                                <br> +0 (123) 456 7891
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                <span class="badge badge-warning">Pending</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="align-middle py-3">
+                                                <div class="media align-items-center">
+                                                    <img src="assets/img/avatars/8-small.png" class="d-block ui-w-40 rounded-circle" alt="">
+                                                    <div class="media-body flex-basis-auto pl-3">
+                                                        <div>Hallie Lewis</div>
+                                                        <div class="text-muted small">@@hlewis</div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                Company Inc.
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                hlewis@mail.com
+                                                <br> +0 (123) 456 7891
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                <span class="badge badge-info">In progress</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="align-middle py-3">
+                                                <div class="media align-items-center">
+                                                    <img src="assets/img/avatars/2-small.png" class="d-block ui-w-40 rounded-circle" alt="">
+                                                    <div class="media-body flex-basis-auto pl-3">
+                                                        <div>Leon Wilson</div>
+                                                        <div class="text-muted small">@@lwilson</div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                Company Inc.
+                                            </td>
+                                            <td class="align-middle py-3">
+                                                lwilson@mail.com
+                                                <br> +0 (123) 456 7891
+                                            </td>
+                                            <td class="align-middle py-3">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
-                        <div style="height: 310px" id="tasks-inner">
-                            <div class="card-body">
-                                <p class="text-muted small">Today</p>
-                                <div class="custom-controls-stacked">
-                                    <label class="ui-todo-item custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-label">Buy products</span>
-                                        <span class="ui-todo-badge badge badge-outline-default font-weight-normal ml-2">58 mins left</span>
-                                    </label>
-                                    <label class="ui-todo-item custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-label">Reply to emails</span>
-                                    </label>
-                                    <label class="ui-todo-item custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-label">Write blog post</span>
-                                        <span class="ui-todo-badge badge badge-outline-default font-weight-normal ml-2">20 hours left</span>
-                                    </label>
-                                    <label class="ui-todo-item custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" checked>
-                                        <span class="custom-control-label">Wash my car</span>
-                                    </label>
+                    </div>
+
+                    <!-- `.clients-wrapper` fills all available space of container -->
+                    <div class="clients-wrapper clients-sidebox-open">
+
+                        <!-- `.clients-content` fills all available space of `clients-wrapper` -->
+                        <div class="clients-content container-p-x container-p-y">
+
+                            <!-- Header -->
+                            <!-- / Header -->
+                            <!-- Clients list -->
+                            <!-- / Clients list -->
+
+                        </div>
+                        <!-- / .clients-content -->
+                        <!-- Clients sidebox -->
+                        <div class="clients-sidebox">
+                            <a href="javascript:void(0)" class="clients-sidebox-close text-muted text-xlarge font-weight-light"></a>
+
+                            <div class="clients-scroll container-p-y">
+
+                                <!-- Client info -->
+                                <div class="text-center p-4">
                                 </div>
-                            </div>
-                            <hr class="m-0">
-                            <div class="card-body">
-                                <p class="text-muted small">Tomorrow</p>
-                                <div class="custom-controls-stacked">
-                                    <label class="ui-todo-item custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-label">Buy antivirus</span>
-                                    </label>
-                                    <label class="ui-todo-item custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-label">Jane's Happy Birthday</span>
-                                    </label>
-                                    <label class="ui-todo-item custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-label">Call mom</span>
-                                    </label>
-                                </div>
+                                <!-- / Client info -->
+
+
                             </div>
                         </div>
-                        <div class="card-footer">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Type your task">
-                                <div class="input-group-append">
-                                    <button type="button" class="btn btn-primary">Add</button>
+                        <!-- / Clients sidebox -->
+
+                    </div>
+                    <!-- / Clients wrapper -->
+                    <!--div class="card review-card mb-4">
+                        <h5 class="card-header">Customer Reviews</h5>
+                        <div class="card-body">
+                            <div class="review-block">
+                                <div class="row">
+                                    <div class="col-sm-auto pb-2">
+                                        <img src="assets/img/avatars/8.png" alt="user image" class="img-fluid rounded-circle ui-w-50 ml-0">
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="m-b-15">John Deo <span class="float-right text-muted"> 10 min ago</span></h6>
+                                        <a href="javascript:"><i class="fas fa-star text-primary "></i></a>
+                                        <a href="javascript:"><i class="fas fa-star text-primary "></i></a>
+                                        <a href="javascript:"><i class="fas fa-star text-primary "></i></a>
+                                        <a href="javascript:"><i class="fas fa-star text-muted"></i></a>
+                                        <a href="javascript:"><i class="fas fa-star text-muted"></i></a>
+                                        <p class="mt-2 m-b-15 text-muted">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                            unknown printer took a galley of type
+                                            and scrambled it to make a type specimen book.
+                                        </p>
+                                        <a href="javascript:" class="mr-4"><i class="fa fa-thumbs-up mr-3 text-primary "></i>Helpful?</a>
+                                        <a href="javascript:"><i class="fa fa-heart text-danger  mr-3"></i></a>
+                                        <a href="javascript:"><i class="fas fa-pencil-alt mr-3 text-primary "></i>Helpful?</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-auto pb-2">
+                                        <img src="assets/img/avatars/9.png" alt="user image" class="img-fluid rounded-circle ui-w-50 ml-0">
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="m-b-15">Allina D’croze <span class="float-right text-muted"> a day ago</span></h6>
+                                        <a href="javascript:"><i class="fas fa-star text-primary "></i></a>
+                                        <a href="javascript:"><i class="fas fa-star text-muted"></i></a>
+                                        <a href="javascript:"><i class="fas fa-star text-muted"></i></a>
+                                        <a href="javascript:"><i class="fas fa-star text-muted"></i></a>
+                                        <a href="javascript:"><i class="fas fa-star text-muted"></i></a>
+                                        <p class="mt-3 mb-3 text-muted">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                            unknown printer took a galley of type
+                                            and scrambled it to make a type specimen book.
+                                        </p>
+                                        <a href="javascript:" class="mr-4"><i class="fa fa-thumbs-up mr-3 text-primary "></i>Helpful?</a>
+                                        <a href="javascript:"><i class="fa fa-heart text-danger  mr-3"></i></a>
+                                        <a href="javascript:"><i class="fas fa-pencil-alt mr-3 text-primary "></i>Helpful?</a>
+                                        <blockquote class="blockquote mt-2 mb-0">
+                                            <h6>Allina D’croze</h6>
+                                            <p class="mb-0 text-muted">Lorem Ipsum is simply dummy text of the industry.</p>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-auto pb-2">
+                                        <img src="assets/img/avatars/11.png" alt="user image" class="img-fluid rounded-circle ui-w-50 ml-0">
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="m-b-15">John Deo <span class="float-right text-muted"> a week ago</span></h6>
+                                        <a href="javascript:"><i class="fas fa-star text-primary "></i></a>
+                                        <a href="javascript:"><i class="fas fa-star text-primary "></i></a>
+                                        <a href="javascript:"><i class="fas fa-star text-primary "></i></a>
+                                        <a href="javascript:"><i class="fas fa-star text-muted"></i></a>
+                                        <a href="javascript:"><i class="fas fa-star text-muted"></i></a>
+                                        <p class="mt-2 m-b-15 text-muted">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                            unknown printer took a galley of type
+                                            and scrambled it to make a type specimen book.
+                                        </p>
+                                        <a href="javascript:" class="mr-4"><i class="fa fa-thumbs-up mr-3 text-primary "></i>Helpful?</a>
+                                        <a href="javascript:"><i class="fa fa-heart text-danger  mr-3"></i></a>
+                                        <a href="javascript:"><i class="fas fa-pencil-alt mr-3 text-primary "></i>Helpful?</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-right  m-r-20">
+                                <a href="#!" class="b-b-primary text-primary">View all Customer Reviews</a>
+                            </div>
+                        </div>
+                    </div-->
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>My To Do Items</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="new-task">
+                                <div class="to-do-list mb-0">
+                                    <div class="d-inline-block">
+                                        <label class="check-task custom-control custom-checkbox d-flex justify-content-center">
+                                            <input type="checkbox" class="custom-control-input">
+                                            <span class="custom-control-label">I'm sure _I_ shan't be able! I shall think.</span>
+                                        </label>
+                                    </div>
+                                    <div class="float-right"><a onclick="delete_todo(1);" href="#!" class="delete_todolist"><i class="far fa-trash-alt"></i></a></div>
+                                </div>
+                                <div class="to-do-list mb-0">
+                                    <div class="d-inline-block">
+                                        <label class="check-task custom-control custom-checkbox d-flex justify-content-center">
+                                            <input type="checkbox" class="custom-control-input">
+                                            <span class="custom-control-label">And when I was a.</span>
+                                        </label>
+                                    </div>
+                                    <div class="float-right"><a onclick="delete_todo(2);" href="#!" class="delete_todolist"><i class="far fa-trash-alt"></i></a></div>
+                                </div>
+                                <div class="to-do-list mb-0">
+                                    <div class="d-inline-block">
+                                        <label class="check-task custom-control custom-checkbox d-flex justify-content-center">
+                                            <input type="checkbox" class="custom-control-input">
+                                            <span class="custom-control-label">Test</span>
+                                        </label>
+                                    </div>
+                                    <div class="float-right"><a onclick="delete_todo(3);" href="#!" class="delete_todolist"><i class="far fa-trash-alt"></i></a></div>
+                                </div>
+                                <div class="to-do-list mb-0">
+                                    <div class="d-inline-block">
+                                        <label class="check-task custom-control custom-checkbox d-flex justify-content-center">
+                                            <input type="checkbox" class="custom-control-input">
+                                            <span class="custom-control-label">Lory hastily. 'I don't much care where</span>
+                                        </label>
+                                    </div>
+                                    <div class="float-right"><a onclick="delete_todo(4);" href="#!" class="delete_todolist"><i class="far fa-trash-alt"></i></a></div>
+                                </div>
+                                <div class="to-do-list mb-0">
+                                    <div class="d-inline-block">
+                                        <label class="check-task custom-control custom-checkbox d-flex justify-content-center">
+                                            <input type="checkbox" class="custom-control-input">
+                                            <span class="custom-control-label">Hatter: 'it's very interesting</span>
+                                        </label>
+                                    </div>
+                                    <div class="float-right"><a onclick="delete_todo(5);" href="#!" class="delete_todolist"><i class="far fa-trash-alt"></i></a></div>
+                                </div>
+                                <div class="to-do-list mb-0">
+                                    <div class="d-inline-block">
+                                        <label class="check-task custom-control custom-checkbox d-flex justify-content-center">
+                                            <input type="checkbox" class="custom-control-input">
+                                            <span class="custom-control-label">Alice, they all moved off, and</span>
+                                        </label>
+                                    </div>
+                                    <div class="float-right"><a onclick="delete_todo(6);" href="#!" class="delete_todolist"><i class="far fa-trash-alt"></i></a></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-8 col-md-12">
-                    <div class="card mb-4">
-                        <div class="card-header with-elements">
-                            <h6 class="card-header-title mb-0">Annual Income by Project</h6>
-                            <div class="card-header-elements ml-auto">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-default icon-btn borderless btn-round md-btn-flat dropdown-toggle hide-arrow" data-toggle="dropdown"><i class="ion ion-ios-more"></i></button>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <a href="javascript:" class="dropdown-item"><i class="feather icon-maximize text-muted"></i> &nbsp; Full Screen</a>
-                                        <a href="javascript:" class="dropdown-item"><i class="feather icon-refresh-cw text-muted"></i> &nbsp; Reload</a>
-                                        <a href="javascript:" class="dropdown-item"><i class="feather icon-trash text-muted"></i> &nbsp; Remove</a>
-                                    </div>
-                                </div>
-                            </div>
+                    <!--div class="card">
+                        <div class="card-header">
+                            <h5>Leads Overview</h5>
                         </div>
-                        <div class="card-body py-0">
-                            <div id="chart-bar-moris" style="height:300px"></div>
+                        <div class="card-body">
+                            <div id="leadchart"></div>
                         </div>
-                        <div class="card-footer pt-0 pb-0">
-                            <div class="row row-bordered row-border-light">
-                                <div class="col-sm-3 py-3">
-                                    <div class="d-flex align-items-center">
-                                        <div class="ui-legend bg-primary" style="width:20px;height:20px"></div>
-                                        <div class="ml-3">
-                                            <p class="text-muted small mb-1">Payroll</p>
-                                            <h5 class="mb-0">$590,47</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-3 py-3">
-                                    <div class="d-flex align-items-center">
-                                        <div class="ui-legend bg-success" style="width:20px;height:20px"></div>
-                                        <div class="ml-3">
-                                            <p class="text-muted small mb-1">HRM</p>
-                                            <h5 class="mb-0">$840,40</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-3 py-3">
-                                    <div class="d-flex align-items-center">
-                                        <div class="ui-legend bg-danger" style="width:20px;height:20px"></div>
-                                        <div class="ml-3">
-                                            <p class="text-muted small mb-1">E-commerce</p>
-                                            <h5 class="mb-0">$486,49</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-3 py-3">
-                                    <div class="d-flex align-items-center">
-                                        <div class="ui-legend bg-warning" style="width:20px;height:20px"></div>
-                                        <div class="ml-3">
-                                            <p class="text-muted small mb-1">Support</p>
-                                            <h5 class="mb-0">$670,99</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    </div-->
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Statistics by Project Status</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="projstatechart"></div>
                         </div>
                     </div>
-                </div>
-                <!-- first card end -->
-                <!-- third card start -->
-                <div class="col-xl-5 col-md-12">
                     <div class="card ui-task mb-4">
                         <h5 class="card-header">Tasks</h5>
                         <div class="card-body">
@@ -503,17 +980,17 @@
                                     <h6 class="text-muted">Call to customer <span class="text-c-blue"> <a href="javascript:" class="text-primary">Jacob</a> </span> and discuss the</h6>
                                 </li>
                                 <li>
-                                    <span class="task-icon bg-primary">2</span>
+                                    <span class="task-icon bg-primary ">2</span>
                                     <p class="mb-2">Sat, 5 Mar</p>
                                     <h6 class="text-muted">Design mobile Application</h6>
                                 </li>
-                                <li class="p-b-30">
-                                    <i class="task-icon bg-danger far fa-thumbs-up"></i>
+                                <li class="">
+                                    <i class="task-icon bg-danger far fa-thumbs-up "></i>
                                     <p class="mb-2">Sun, 17 Feb</p>
                                     <h6 class="text-muted"><span class="text-c-blue"><a href="javascript:" class="text-primary">Jeny</a></span> assign you a task <span class="text-primary"><a href="javascript:" class="text-primary">Mockup Design.</a></span></h6>
                                 </li>
                                 <li class="p-b-30">
-                                    <i class="task-icon bg-warning fas fa-exclamation-triangle"></i>
+                                    <i class="task-icon bg-warning fas fa-exclamation-triangle "></i>
                                     <p class="mb-2">Thu, 2 Jan</p>
                                     <h6 class="text-muted"><span class="text-c-blue"><a href="javascript:" class="text-primary">You</a></span> got a warning <span class="text-primary"><a href="javascript:" class="text-primary">Messages.</a></span></h6>
                                 </li>
@@ -521,178 +998,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-7 col-md-12">
-                    <div class="card review-card mb-4">
-                        <h5 class="card-header">Customer Reviews</h5>
-                        <div class="card-body">
-                            <div class="review-block">
-                                <div class="row pt-0 pb-2">
-                                    <div class="col-sm-auto pb-2">
-                                        <img src="assets/img/avatars/8.png" alt="user image" class="img-fluid rounded-circle ui-w-50 ml-0">
-                                    </div>
-                                    <div class="col">
-                                        <h6 class="m-b-15">John Deo <span class="float-right text-muted"> 10 min ago</span></h6>
-                                        <a href="javascript:"><i class="fas fa-star text-primary"></i></a>
-                                        <a href="javascript:"><i class="fas fa-star text-primary"></i></a>
-                                        <a href="javascript:"><i class="fas fa-star text-primary"></i></a>
-                                        <a href="javascript:"><i class="fas fa-star text-muted"></i></a>
-                                        <a href="javascript:"><i class="fas fa-star text-muted"></i></a>
-                                        <p class="mt-2 m-b-15 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                                        <a href="javascript:" class="mr-4"><i class="fa fa-thumbs-up mr-3 text-primary"></i>Helpful?</a>
-                                        <a href="javascript:"><i class="fa fa-heart text-danger mr-3"></i></a>
-                                        <a href="javascript:"><i class="fas fa-pencil-alt mr-3 text-primary"></i>Helpful?</a>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-auto pb-2">
-                                        <img src="assets/img/avatars/11.png" alt="user image" class="img-fluid rounded-circle ui-w-50 ml-0">
-                                    </div>
-                                    <div class="col">
-                                        <h6 class="m-b-15">John Deo <span class="float-right text-muted"> a week ago</span></h6>
-                                        <a href="javascript:"><i class="fas fa-star text-primary"></i></a>
-                                        <a href="javascript:"><i class="fas fa-star text-primary"></i></a>
-                                        <a href="javascript:"><i class="fas fa-star text-primary"></i></a>
-                                        <a href="javascript:"><i class="fas fa-star text-muted"></i></a>
-                                        <a href="javascript:"><i class="fas fa-star text-muted"></i></a>
-                                        <p class="mt-2 m-b-15 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                        <a href="javascript:" class="mr-4"><i class="fa fa-thumbs-up mr-3 text-primary"></i>Helpful?</a>
-                                        <a href="javascript:"><i class="fa fa-heart text-danger mr-3"></i></a>
-                                        <a href="javascript:"><i class="fas fa-pencil-alt mr-3 text-primary"></i>Helpful?</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- third card end -->
-                <!-- forth card start -->
-                <div class="col-xl-7 col-md-12">
-                    <div class="card mb-4">
-                        <h5 class="card-header">Recent Tickets</h5>
-                        <div class="table-responsive">
-                            <table class="table table-hover table-borderless">
-                                <thead>
-                                    <tr>
-                                        <th>Status</th>
-                                        <th>Subject</th>
-                                        <th>Department</th>
-                                        <th class="text-right">Date</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><label class="badge badge-pill badge-success">open</label></td>
-                                        <td>Website down for one week</td>
-                                        <td>Support</td>
-                                        <td class="text-right">Today 2:00</td>
-                                    </tr>
-                                    <tr>
-                                        <td><label class="badge badge-pill badge-primary">progress</label></td>
-                                        <td>Loosing control on server</td>
-                                        <td>Support</td>
-                                        <td class="text-right">Yesterday</td>
-                                    </tr>
-                                    <tr>
-                                        <td><label class="badge badge-pill badge-danger">closed</label></td>
-                                        <td>Authorizations keys</td>
-                                        <td>Support</td>
-                                        <td class="text-right">27, Aug</td>
-                                    </tr>
-                                    <tr>
-                                        <td><label class="badge badge-pill badge-success">open</label></td>
-                                        <td>Restoring default settings</td>
-                                        <td>Support</td>
-                                        <td class="text-right">Today 9:00</td>
-                                    </tr>
-                                    <tr>
-                                        <td><label class="badge badge-pill badge-primary">progress</label></td>
-                                        <td>Loosing control on server</td>
-                                        <td>Support</td>
-                                        <td class="text-right">Yesterday</td>
-                                    </tr>
-                                    <tr>
-                                        <td><label class="badge badge-pill badge-success">open</label></td>
-                                        <td>Restoring default settings</td>
-                                        <td>Support</td>
-                                        <td class="text-right">Today 9:00</td>
-                                    </tr>
-                                    <tr>
-                                        <td><label class="badge badge-pill badge-danger">closed</label></td>
-                                        <td>Authorizations keys</td>
-                                        <td>Support</td>
-                                        <td class="text-right">27, Aug</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-5 col-md-12">
-                    <div class="card ui-timeline mb-4">
-                        <h5 class="card-header">Latest Updates</h5>
-                        <div class="card-body">
-                            <div class="timelines-box">
-                                <div class="row pt-3 pb-4">
-                                    <div class="col-auto text-right update-meta">
-                                        <p class="text-muted mb-0 d-inline">2 hrs ago</p>
-                                        <i class="fab fa-twitter bg-primary update-icon"></i>
-                                    </div>
-                                    <div class="col">
-                                        <h6 class="mb-1">+ 1652 Followers</h6>
-                                        <p class="text-muted mb-0">You’re getting more followers, keep it up!</p>
-                                    </div>
-                                </div>
-                                <div class="row pb-4">
-                                    <div class="col-auto text-right update-meta">
-                                        <p class="text-muted mb-0 d-inline">4 hrs ago</p>
-                                        <i class="fa fa-briefcase bg-danger update-icon"></i>
-                                    </div>
-                                    <div class="col">
-                                        <h6 class="mb-1">+ 5 New Products were added!</h6>
-                                        <p class="text-muted mb-0">Congratulations!</p>
-                                    </div>
-                                </div>
-                                <div class="row pb-4">
-                                    <div class="col-auto text-right update-meta">
-                                        <p class="text-muted mb-0 d-inline">1 day ago</p>
-                                        <i class="fa fa-check bg-success update-icon"></i>
-                                    </div>
-                                    <div class="col">
-                                        <h6 class="mb-1">Database backup completed!</h6>
-                                        <p class="text-muted mb-0">Download the <span class="text-c-blue"> <a href="javascript:" class="text-primary">latest backup</a> </span>.</p>
-                                    </div>
-                                </div>
-                                <div class="row p-b-0">
-                                    <div class="col-auto text-right update-meta">
-                                        <p class="text-muted mb-0 d-inline">2 day ago</p>
-                                        <i class="fab fa-facebook-f bg-warning update-icon"></i>
-                                    </div>
-                                    <div class="col">
-                                        <h6 class="mb-1">+2 Friend Requests</h6>
-                                        <p class="text-muted mb-2">This is great, keep it up!</p>
-                                        <div class="media mb-0">
-                                            <img src="assets/img/avatars/1-small.png" class="d-block ui-w-40 rounded-circle" alt="">
-                                            <div class="media-body ml-3">
-                                                <h6 class="mb-1">David Jones</h6>
-                                                <p class="text-muted mb-0">Graphic Designer</p>
-                                            </div>
-                                        </div>
-                                        <hr>
-                                        <div class="media mb-0">
-                                            <img src="assets/img/avatars/3-small.png" class="d-block ui-w-40 rounded-circle" alt="">
-                                            <div class="media-body ml-3">
-                                                <h6 class="mb-1">John Deo</h6>
-                                                <p class="text-muted mb-0">Web Designer</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- forth card end -->
-
+                <!-- progressbar static data end -->
             </div>
         </div>
         <!-- [ content ] End -->
@@ -711,9 +1017,192 @@
             </div>
         </nav>
         <!-- [ Layout footer ] End -->
-
     </div>
     <!-- [ Layout content ] Start -->
-
 </div>
 <!-- [ Layout container ] End -->
+<!-- Modal template -->
+<div class="modal modal-slide fade" id="modals-slide">
+    <div class="modal-dialog">
+        <form class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-auto">
+                        <img src="assets/img/avatars/9.png" class="ui-w-100 rounded-circle mb-4" alt="">
+                    </div>
+                    <div class="col">
+                        <h5 class="mb-1">
+                            <a href="javascript:void(0)" class="text-dark">Amanda Warner</a>
+                        </h5>
+                        <div class="text-muted small mb-2">@@awarner</div>
+                        <div class="small mb-4">
+                            Company Inc.
+                            <br> +0 (123) 456 7891
+                        </div>
+                        <div>
+                            <a href="javascript:void(0)" class="text-secondary">
+                                <span class="ion ion-md-mail"></span>
+                            </a> &nbsp;&nbsp;
+                            <a href="javascript:void(0)" class="text-secondary">
+                                <span class="ion ion-ios-chatbubbles"></span>
+                            </a> &nbsp;&nbsp;
+                            <span class="text-lighter">|</span> &nbsp;&nbsp;
+                            <a href="javascript:void(0)" class="text-twitter">
+                                <span class="ion ion-logo-twitter"></span>
+                            </a> &nbsp;&nbsp;
+                            <a href="javascript:void(0)" class="text-facebook">
+                                <span class="ion ion-logo-facebook"></span>
+                            </a> &nbsp;&nbsp;
+                            <a href="javascript:void(0)" class="text-instagram">
+                                <span class="ion ion-logo-instagram"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="border-light my-4">
+
+                <div class="">
+                    <h6 class="mb-3">Messages</h6>
+
+                    <div class="">
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.
+                        <div class="text-muted small mt-1">
+                            <i class="ion ion-md-time mr-1"></i>1 day ago &nbsp; | &nbsp;
+                            <a href="javascript:void(0)" class="text-muted"><i class="ion ion-ios-repeat mr-1"></i>Reply</a>
+                        </div>
+                    </div>
+                    <hr class="border-light my-3">
+                    <div class="">
+                        Vivendum torquatos ut nec, sit audiam deterruisset ei, cu sed nibh autem scriptorem. Ea quo vidit deleniti constituto, ex qui malis mollis iudicabit, viris fabellas id has.
+                        <div class="text-muted small mt-1">
+                            <i class="ion ion-md-time mr-1"></i>2 day ago &nbsp; | &nbsp;
+                            <a href="javascript:void(0)" class="text-muted"><i class="ion ion-ios-repeat mr-1"></i>Reply</a>
+                        </div>
+                    </div>
+                    <hr class="border-light my-3">
+                    <div class="">
+                        Eam facilis laboramus reprehendunt ei, ex esse fastidii per.
+                        <div class="text-muted small mt-1">
+                            <i class="ion ion-md-time mr-1"></i>3 day ago &nbsp; | &nbsp;
+                            <a href="javascript:void(0)" class="text-muted"><i class="ion ion-ios-repeat mr-1"></i>Reply</a>
+                        </div>
+                    </div>
+                    <hr class="border-light my-3">
+                    <div class="">
+                        Ea inani epicurei mea. No docendi antiopam quo, ad dicant viderer cotidieque vix. Ea mea dicat ludus, utroque explicari conclusionemque ius eu, in scaevola tractatos persecuti per.
+                        <div class="text-muted small mt-1">
+                            <i class="ion ion-md-time mr-1"></i>3 day ago &nbsp; | &nbsp;
+                            <a href="javascript:void(0)" class="text-muted"><i class="ion ion-ios-repeat mr-1"></i>Reply</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- Core scripts -->
+
+
+@section scripts{
+
+    @* Page specific scripts for charts *@
+    <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+    <script>
+        // [ leadchart ] start
+        //$(function () {
+        //    var options = {
+        //        chart: {
+        //            height: 275,
+        //            type: 'donut',
+        //        },
+        //        dataLabels: {
+        //            enabled: false,
+        //        },
+        //        series: [85.7, 77.56, 20.9, 10.9, 15.8, 86.7],
+        //        colors: ["#ff4a00", "#62d493", "#3ec9d6", "#f4ab55", "#536dfe", "#ff4961"],
+        //        labels: ["New", "Contacted", "Working", "Qualified", "Proposal Sent", "Customer"],
+        //        legend: {
+        //            show: true,
+        //            position: 'bottom',
+        //        }
+        //    }
+        //    var chart = new ApexCharts(
+        //        document.querySelector("#leadchart"),
+        //        options
+        //    );
+        //    chart.render();
+        //});
+        // [ leadchart ] end
+        // [ projstatechart ] start
+        $(function () {
+            var options = {
+                chart: {
+                    height: 275,
+                    type: 'donut',
+                },
+                dataLabels: {
+                    enabled: false,
+                },
+                series: [85.7, 77.56, 20.9, 10.9, 15.8],
+                colors: ["#ff4a00", "#3ec9d6", "#f4ab55", "#536dfe", "#62d493"],
+                labels: ["Not started", "In progress", "On hold", "Cancelled", "Finished"],
+                legend: {
+                    show: true,
+                    position: 'bottom',
+                }
+            }
+            var chart = new ApexCharts(
+                document.querySelector("#projstatechart"),
+                options
+            );
+            chart.render();
+        });
+        // [ projstatechart ] end
+    </script>
+
+
+    @* Page specific scripts for table (dataTables) *@
+    <script src="assets/libs/datatables/datatables.js"></script>
+    <script>
+        $(function () {
+            function openSidenav() {
+                $('.clients-wrapper').addClass('clients-sidebox-open');
+            }
+
+            function closeSidenav() {
+                $('.clients-wrapper').removeClass('clients-sidebox-open');
+                $('.clients-table tr.bg-light').removeClass('bg-light');
+            }
+
+            function selectClient(row) {
+                openSidenav();
+                $('.clients-table tr.bg-light').removeClass('bg-light');
+                $(row).addClass('bg-light');
+            }
+
+            $('body').on('click', '.clients-table tr', function () {
+                selectClient(this);
+            });
+
+            $('body').on('click', '.clients-sidebox-close', function (e) {
+                e.preventDefault();
+                closeSidenav();
+            });
+            // Setup scrollbars
+            // $('.clients-scroll').each(function() {
+            //     new PerfectScrollbar(this, {
+            //         suppressScrollX: true,
+            //         wheelPropagation: true
+            //     });
+            // });
+            // DataTable start
+            $('#report-table tr').on('click', function () {
+                $('#modals-slide').modal()
+            });
+            // DataTablse end
+        });
+    </script>
+
+
+}
